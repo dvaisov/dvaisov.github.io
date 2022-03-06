@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Davlat test markazi</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+                crossorigin="anonymous">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e5e5e5">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href=""><img src="img/logo-top.svg" alt="Logo" width="256"></a>
+                        <div>
+                                <div style="float: left; width: 50%;">
+                                        <a class="navbar-brand" href=""><img src="img/gerb.png" alt="Logo"></a>
+                                </div>
+                                <div style="float: right; width: 50%">O'ZBEKISTON RESPUBLIKASI<br> VAZIRLAR MAHKAMASI
+                                        HUZURIDAGI<br>
+                                        DAVLAT TEST MARKAZI
+                                </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div>
+                                <!--            Border          -->
+                                <img src="img/uz.svg" alt="uz-uz" width="64px" height="64px">
+                                <img src="img/ru.svg" alt="ru-ru" width="64px" height="64px">
+                                <img src="img/kk.svg" alt="kk-kk" width="64px" height="64px">
+                        </div>
+                        <!--                <div class="navbar-nav">-->
+                        <!--                    <div class="dropdown">-->
+                        <!--                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="width: 175px">-->
+                        <!--                            <img src="/img/uz.svg" alt="uz-uz" width="16px" height="16px"> O'zbek tili-->
+                        <!--                        </button>-->
+                        <!--                        <ul class="dropdown-menu mx-auto" aria-labelledby="dropdownMenuButton1">-->
+                        <!--                            <li><button class="btn btn-outline-secondary" style="width: 175px"><img src="/img/ru.svg" alt="ru-ru" width="16px" height="16px"> Русский язык</button></li>-->
+                        <!--                            <li><button class="btn btn-outline-secondary" style="width: 175px"><img src="/img/kk.svg" alt="kk-kk" width="16px" height="16px"> Qaraqalpaqsha</button></li>-->
+                        <!--                        </ul>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group"
+                                style="height: 72px; width: 100%;">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" >
+                                <label class="btn btn-outline-warning" for="btnradio1" style="font-size: 24pt"><a href="index.html">Passport</a></label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked>
+                                <label class="btn btn-outline-primary" for="btnradio2" style="font-size: 24pt"><a >Turar joy</a></label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                                <label class="btn btn-outline-warning" for="btnradio3" style="font-size: 24pt"><a href="talim.html">Ta'lim muassasi</a></label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" >
+                                <label class="btn btn-outline-warning" for="btnradio4" style="font-size: 24pt"><a href="certificate.html">Sertifikat</a></label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" >
+                                <label class="btn btn-outline-warning" for="btnradio5" style="font-size: 24pt"><a href="univer.html">University</a></label>
+                        </div>
+                        <!--        <a class="navbar-brand" href="">Passport</a>-->
+                        <!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">-->
+                        <!--            <span class="navbar-toggler-icon"></span>-->
+                        <!--        </button>-->
+                        <!--        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
+                        <!--            <div class="navbar-nav">-->
+                        <!--                <a class="nav-link" aria-current="page" href="#">Turar joy</a>-->
+                        <!--                <a class="nav-link" href="">O'rta</a>-->
+                        <!--                <a class="nav-link" href="">Sertifikat</a>-->
+                        <!--                <a class="nav-link">Universitet</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                </div>
+        </nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+
+<div style="text-align: center;">
+               
+                <form class="signupform" method="get">
+
+                <h3>Tug'ulgan Viloyatingizni korsating
+                        <select aria-label="Viloyat" id="viloyat">
+                                <option value="empty">------------------------</option>
+                                <option value="viloyat">Andijon Viloyati</option>
+                                <option value="viloyat">Buxoro Viloyati</option>
+                                <option value="viloyat">Farg'ona Viloyati</option>
+                                <option value="viloyat">Namangan Viloyati</option>
+                                <option value="viloyat">Sirdaryo Viloyati</option>
+                                <option value="viloyat">Jizzax Viloyati</option>
+                                <option value="viloyat">Samarqand Viloyati</option>
+                                <option value="viloyat">Navoiy Viloyati</option>
+                                <option value="viloyat">Qashqadaryo Viloyati</option>
+                                <option value="viloyat">Surxondaryo Viloyati</option>
+                                <option value="viloyat">Xorazm Viloyati</option>
+                                <option value="viloyat">Toshkent Viloyati</option>
+                                <option value="viloyat">Toshkent Shahri</option>
+                        </select>
+                </h3>
+                
+
+ 
+                <h3><label>Tuman <input type="text" id="tuman"></label></h3>
+
+                <h3><label>Doimiy yashash manzilingizni kiriting <input type="text" id="manzil"></label></h3>
+
+                <button type="submit">Tekshirish</button>
+
+
+                </form>
+</div>
+                
+                <script src="/turarjoy.js"></script>
+                <script src="/javascript.js"></script>
+
+                <br>
+                <br>
+        <h2 style="text-align: center;"><a href="talim.html"> Keyingisi </a></h2>
+
+
+
+
+
+</body>
+
+</html>

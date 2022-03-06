@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Davlat test markazi</title>
+        <link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e5e5e5">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href=""><img src="img/logo-top.svg" alt="Logo" width="256"></a>
+                        <div>
+                                <div style="float: left; width: 50%;">
+                                        <a class="navbar-brand" href=""><img src="img/gerb.png" alt="Logo"></a>
+                                </div>
+                                <div style="float: right; width: 50%">O'ZBEKISTON RESPUBLIKASI<br> VAZIRLAR MAHKAMASI
+                                        HUZURIDAGI<br>
+                                        DAVLAT TEST MARKAZI
+                                </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div>
+                                <!--            Border          -->
+                                <img src="img/uz.svg" alt="uz-uz" width="64px" height="64px">
+                                <img src="img/ru.svg" alt="ru-ru" width="64px" height="64px">
+                                <img src="img/kk.svg" alt="kk-kk" width="64px" height="64px">
+                        </div>
+                        <!--                <div class="navbar-nav">-->
+                        <!--                    <div class="dropdown">-->
+                        <!--                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="width: 175px">-->
+                        <!--                            <img src="/img/uz.svg" alt="uz-uz" width="16px" height="16px"> O'zbek tili-->
+                        <!--                        </button>-->
+                        <!--                        <ul class="dropdown-menu mx-auto" aria-labelledby="dropdownMenuButton1">-->
+                        <!--                            <li><button class="btn btn-outline-secondary" style="width: 175px"><img src="/img/ru.svg" alt="ru-ru" width="16px" height="16px"> Русский язык</button></li>-->
+                        <!--                            <li><button class="btn btn-outline-secondary" style="width: 175px"><img src="/img/kk.svg" alt="kk-kk" width="16px" height="16px"> Qaraqalpaqsha</button></li>-->
+                        <!--                        </ul>-->
+                        <!--                    </div>-->
+                        <!--                </div>-->
+                </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group" style="height: 72px; width: 100%;">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" >
+                                <label class="btn btn-outline-warning" for="btnradio1" style="font-size: 24pt"><a href="index.html">Passport</a></label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" >
+                                <label class="btn btn-outline-warning" for="btnradio2" style="font-size: 24pt"><a href="turarjoy.html">Turar joy</a></label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" >
+                                <label class="btn btn-outline-warning" for="btnradio3" style="font-size: 24pt"><a href="talim.html">Ta'lim markazi</a></label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" checked>
+                                <label class="btn btn-outline-primary" for="btnradio4" style="font-size: 24pt">Sertifikat</label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" >
+                                <label class="btn btn-outline-warning" for="btnradio5" style="font-size: 24pt"><a href="univer.html">University</a></label>
+                        </div>
+                        <!--        <a class="navbar-brand" href="">Passport</a>-->
+                        <!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">-->
+                        <!--            <span class="navbar-toggler-icon"></span>-->
+                        <!--        </button>-->
+                        <!--        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
+                        <!--            <div class="navbar-nav">-->
+                        <!--                <a class="nav-link" aria-current="page" href="#">Turar joy</a>-->
+                        <!--                <a class="nav-link" href="">O'rta</a>-->
+                        <!--                <a class="nav-link" href="">Sertifikat</a>-->
+                        <!--                <a class="nav-link">Universitet</a>-->
+                        <!--            </div>-->
+                        <!--        </div>-->
+                </div>
+        </nav>
+
+        <h2>Xalqaro Sertifikatlar</h2>
+        
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="111112110"  >
+                               <div style="float: left; width: 35%;" >
+                                <img src="/img/cefr.png" class="d-block " alt="cefr" style="width: 35% ; height: 35%; text-align: center;">
+                        </div>
+                        <div style="float: left; width: 65%;">
+                                <form method="get" class="signup-form">
+                                        <label><h3> Enter candidate ID: <input id="name" type="text"></h3></label>
+                                        <label><h3> Enter CEFR Level: <input id="fname" type="text"></h3></label>
+                                        <label><h3> Candidate number: <input id="passport" type="text"></h3></label>
+                                        <label><h3> Enter Test Report Form Numbere: <input type="text" id="pnfl"></h3></label>
+                                        <button type="submit">Tekshirish</button>
+                                        <!-- <input type="submit" value="Submit" role="button" href="/turarjoy.html"> -->
+                                </form>
+                        </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="1111110">
+                                <div style="float: left; width: 35%;" >
+                                <img src="/img/ielts.png" class="d-block " alt="ielts" style="width: 35% ; height: 35%; text-align: center;">
+                                </div>
+
+                                <div style="float: left; width: 65%;">
+                                        <form method="get" class="signup-form">
+                                                <label><h3> Enter candidate ID: <input id="name" type="text"></h3></label>
+                                                <label><h3> Enter Overall Mark: <input id="fname" type="text"></h3></label>
+                                                <label><h3> Candidate number: <input id="passport" type="text"></h3></label>
+                                                <label><h3> Enter Test Report Form Numbere: <input type="text" id="pnfl"></h3></label>
+                                                <button type="submit">Tekshirish</button>
+                                                <!-- <input type="submit" value="Submit" role="button" href="/turarjoy.html"> -->
+                                        </form>
+                                </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="111111110;"  >
+                                <div style="float: left; width: 35%;" >
+                                <img src="/img/sat.png" class="d-block" alt="sat" style="width: 50% ; height: 50%; text-align: center;" >
+                                </div>
+
+                                <div style="float: left; width: 65%;">
+                                        <form method="get" class="signup-form">
+                                                <label><h3> Enter candidate ID: <input id="name" type="text"></h3></label>
+                                                <label><h3> Enter Overall Point: <input id="fname" type="text"></h3></label>
+                                                <label><h3> Candidate number: <input id="passport" type="text"></h3></label>
+                                                <label><h3> Enter Test Report Form Numbere: <input type="text" id="pnfl"></h3></label>
+                                                <button type="submit">Tekshirish</button>
+                                                <!-- <input type="submit" value="Submit" role="button" href="/turarjoy.html"> -->
+                                        </form>
+                                </div>
+                        </div>
+
+                        <div class="carousel-item " data-bs-interval="1000000" >
+
+                                <div  style="float: left; width: 35%;">
+                                <img src="/img/toefl.png" class="d-block" alt="toefl" style="width: 50% ; height: 50%; text-align: center;">
+                                </div>
+
+                                <div style="float: left; width: 65%;">
+                                        <form method="get" class="signup-form">
+                                                <label><h3> Enter candidate ID: <input id="name" type="text"></h3></label>
+                                                <label><h3> Enter Overall Point: <input id="fname" type="text"></h3></label>
+                                                <label><h3> Candidate number: <input id="passport" type="text"></h3></label>
+                                                <label><h3> Enter Test Report Form Numbere: <input type="text" id="pnfl"></h3></label>
+                                                <button type="submit">Tekshirish</button>
+                                                <!-- <input type="submit" value="Submit" role="button" href="/turarjoy.html"> -->
+                                        </form>
+                                </div>
+                        </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+        <script src="/javascript.js"></script>
+</body>
+
+</html>
