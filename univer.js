@@ -5,7 +5,7 @@ var States = [{
 }, {
         key: 2,
         name: "Texnika",
-        cities: ["Fizika", "Muhandislik", "City8", "San Diego"]
+        cities: ["Fizika", "Muhandislik",]
 }, {
         key: 1,
         name: "Jahon",
