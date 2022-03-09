@@ -85,14 +85,70 @@
                 </div>
         </nav>
         <div class="container">
-                <div class="DDStyle" id="states" onChange="populateCities()">
-                        <h3>Universitet:</h3><select id="StatesList" class="DDStyle form-select" style="max-width: min(540px, 30%);">
-                        </select>
+                <div>
+                        <div class="DDStyle" id="states" onChange="populateCities()">
+                                <h3>Universitet:</h3><select id="StatesList" class="DDStyle form-select"
+                                        style="max-width: min(540px, 30%);">
+                                </select>
+                        </div>
+                        <div id="Cities" class="DDStyle">
+                                <h3>Fakultet:</h3>
+                                <select id="CitiesList" class="DDStyle form-select" style="max-width: min(540px, 30%);">
+                                </select>
+                        </div>
                 </div>
-                <div id="Cities" class="DDStyle">
-                        <h3>Fakultet:</h3>
-                        <select id="CitiesList" class="DDStyle form-select" style="max-width: min(540px, 30%);">
-                        </select>
+                <div>
+                        <div class="DDStyle" id="states1" onChange="populateCities1()">
+                                <h3>Universitet:</h3><select id="StatesList1" class="DDStyle form-select"
+                                        style="max-width: min(540px, 30%);">
+                                </select>
+                        </div>
+                        <div id="Cities" class="DDStyle">
+                                <h3>Fakultet:</h3>
+                                <select id="CitiesList1" class="DDStyle form-select"
+                                        style="max-width: min(540px, 30%);">
+                                </select>
+                        </div>
+                </div>
+                <div>
+                        <div class="DDStyle" id="states0" onChange="populateCities0()">
+                                <h3>Universitet:</h3><select id="StatesList0" class="DDStyle form-select"
+                                        style="max-width: min(540px, 30%);">
+                                </select>
+                        </div>
+                        <div id="Cities" class="DDStyle">
+                                <h3>Fakultet:</h3>
+                                <select id="CitiesList0" class="DDStyle form-select"
+                                        style="max-width: min(540px, 30%);">
+                                </select>
+                        </div>
+                </div>
+                <br><br>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Saqlash
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Tabriklaymiz🎉</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                                Rõyxatdan muvoffaqiyatli ya'kunlandi
+                                        </div>
+                                        <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Saqlash</button>
+                                        </div>
+                                </div>
+                        </div>
                 </div>
         </div>
         <script src="/univer.js"></script>
